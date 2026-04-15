@@ -1,0 +1,25 @@
+Introduction
+- wer bin ich, was ist meine rolle in der uni ?
+
+Part 1 - Physik
+- theorie <-> experiment ? 
+ -> vorhersagen aus der theorie nicht immer mit blatt und papier zu berechnen => Physik auf dem Computer
+- monte carlo mit einem einfachen beispiel (ermittlung von pi oder ähnliches)
+- physik auf mikroskopischem level
+- kurz qcd/feldtheorie als beispiel für theorien, für die computer notwendig sind ---> wirkung + pfadintegral
+    (wirkung intuitiv quasi eine zahl, die misst, wie sehr das universum sich "anstrengen" muss um einen bestimmten pfad durchzuführen)
+    klassische physik == nur der pfad/config mit der geringsten wirkung möglich
+    quantenphysik == alle pfade/configs theoretisch möglich, aber je höher die wirkung eines pfades, desto unwahrscheinlicher ist er
+- qft auf dem computer (diskretisierung usw. + monte carlo)
+    können nicht alle pfade/configs (unendlich viele) messen, also messen wir nur eine bestimmte anzahl von denen, die signifikantes gewicht/wahrschinlichkeit haben
+- nicht so einfach wie die ermittlung von pi, weil wir nicht a priori wissen, welche configs "wichtig" sind, und es viel zu viele "unwichtige" gibt
+    --> prinzip von MCMC anschneiden
+
+Part 2 - Was mache ich day-to-day
+- critical slowing down / topological freezing
+- wir arbeiten daran das problem zu lindern, damit simulationen in nahe am kontinuum möglich werden
+    --> präzisere ergebnisse für observablen/physikalische größen, die man mit experimenten vergleichen kann
+- offensichtilich viel zeit vor dem pc (coding, datenauswertung)
+- verbindung von physik und informatik (ohne die ganzen langweiligen IT sachen und mit den interessanten physik sachen)
+- Papers lesen/schreiben + data analysis + coding + lehre + ein bisschen physik (pictures animation)
+

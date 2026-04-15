@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="main_files/libs/clipboard/clipboard.min.js"></script>
+<script src="main_files/libs/quarto-html/tabby.min.js"></script>
+<script src="main_files/libs/quarto-html/popper.min.js"></script>
+<script src="main_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="main_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="main_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="main_files/libs/quarto-html/quarto-syntax-highlighting-dark-31aacf3a67a5f2bfcd53c70ad1b92f21.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="main_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="main_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="main_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.27">
+
+  <meta name="author" content="Gianluca · Doktorand · Theoretische Teilchenphysik">
+  <meta name="dcterms.date" content="2026-04-17">
+  <title>Was macht ein Teilchenphysiker?</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="main_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="main_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="main_files/libs/revealjs/dist/theme/quarto-a1d3734469117662d4af4794742e8c15.css">
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+  <link href="main_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="main_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="main_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="main_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="main_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="main_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
+  
+  <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+</head>
+<body class="quarto-dark">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Was macht ein Teilchenphysiker?</h1>
+  <p class="subtitle">Lattice QCD – Quarks auf dem Gitter</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Gianluca · Doktorand · Theoretische Teilchenphysik 
+</div>
+</div>
+</div>
+
+  <p class="date">2026-04-17</p>
+</section>
+<section id="warum-teilchenphysik" class="slide level2 center">
+<h2>Warum Teilchenphysik?</h2>
+<aside class="notes">
+<p>Kurz vorstellen: Name, Promotion, warum ich Physik mache.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li>Woraus besteht die Welt wirklich?</li>
+<li>Warum haben Teilchen Masse?</li>
+<li>Was hält Protonen &amp; Neutronen zusammen?</li>
+<li>Lassen sich mathematische Formeln zur Beschreibung der Natur finden?</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="particlephysics.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="https://particle.univie.ac.at/"><img data-src="particlephysics.jpg" style="width:100.0%" alt="https://particle.univie.ac.at/"></a></p>
+<figcaption>https://particle.univie.ac.at/</figcaption>
+</figure>
+</div>
+</div></div>
+<aside class="notes">
+<p>Alltagsbezug herstellen, Neugier wecken.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<!-- ## Appendix {.appendix} -->
+<!---->
+<!-- Um physikalische Theorien überprüfen zu können, müssen mithilfe dieser experimentell -->
+<!-- nachweisbare Vorhersagen berechnet werden. In vielen Fällen ist die Theorie jedoch so -->
+<!-- kompliziert, dass keine Rechnungen mehr mit Blatt und Papier oder gar einem Taschenrechner -->
+<!-- durchführbar sind. Eine der fundamentalsten Theorien in dieser Kategorie ist die -->
+<!-- Quantenchromodynamik (QCD), die unter anderem dafür zuständig ist, Atomkerne zusammenzuhalten. -->
+<!-- Wir schauen uns an, wie Teilchenphysiker die Raumzeit zu einem Gitternetz umwandeln, -->
+<!-- um die starke Kernkraft am Supercomputer zu simulieren und an welchen Problemen aktiv gearbeitet -->
+<!-- wird. -->
+</section>
+<section id="das-standardmodell-überblick" class="slide level2 center">
+<h2>Das Standardmodell (Überblick)</h2>
+<!-- Alle bekannten Elementarteilchen -->
+<div class="center">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="standardmodel.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Von MissMJ &amp; Cush / abgeleitetes Werk: Polluks - Standard Model of Elementary Particles.svg, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=11307906"><img data-src="standardmodel.png" style="width:63.0%" alt="Von MissMJ &amp; Cush / abgeleitetes Werk: Polluks - Standard Model of Elementary Particles.svg, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=11307906"></a></p>
+<figcaption>Von MissMJ &amp; Cush / abgeleitetes Werk: Polluks - Standard Model of Elementary Particles.svg, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=11307906</figcaption>
+</figure>
+</div>
+</div>
+<!-- | Fermionen (Materie) |  |  | Bosonen (Kräfte) |  | -->
+<!-- |:---:|:---:|:---:|:---:|:---:| -->
+<!-- | **[up (u)]{style="color:#d9534f; font-weight:bold;"}** | **[charm (c)]{style="color:#d9534f; font-weight:bold;"}** | **[Elektron (e)]{style="color:#5bc0de; font-weight:bold;"}**<br> **[Elektronneutrino (νₑ)]{style="color:#5bc0de; font-weight:bold;"}** | **[Photon (γ)]{style="color:#5cb85c; font-weight:bold;"}** | **Higgs (H)** | -->
+<!-- | **[down (d)]{style="color:#d9534f; font-weight:bold;"}** | **[top (t)]{style="color:#d9534f; font-weight:bold;"}** | **[Muon (μ)]{style="color:#5bc0de; font-weight:bold;"}**<br>  **[Muonneutrino (ν~μ~)]{style="color:#5bc0de; font-weight:bold;"}**| **[W±]{style="color:#5cb85c; font-weight:bold;"}** | **[Z]{style="color:#5cb85c; font-weight:bold;"}** | -->
+<!-- | **[strange (s)]{style="color:#d9534f; font-weight:bold;"}** | **[bottom (b)]{style="color:#d9534f; font-weight:bold;"}** | **[Tau (τ)]{style="color:#5bc0de; font-weight:bold;"}**<br> **[Tauneutrino (ν~τ~)]{style="color:#5bc0de; font-weight:bold;"}** | **[Gluon (g)]{style="color:#5cb85c; font-weight:bold;"}** |  | -->
+<!---->
+<!-- ::: {.smaller} -->
+<!-- [■]{style="color:#d9534f; font-weight:bold;"} Quarks  -->
+<!-- [■]{style="color:#5bc0de; font-weight:bold;"} Leptonen  -->
+<!-- [■]{style="color:#5cb85c; font-weight:bold;"} Kraftbosonen  -->
+<!-- [■]{style="color:#f0ad4e; font-weight:bold;"} Higgs -->
+<!-- ::: -->
+<aside class="notes">
+<p>Betonung: Alles, was wir kennen. Fokus gleich auf Quarks &amp; Gluonen lenken → QCD.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="die-starke-wechselwirkung" class="slide level2 center">
+<h2>Die starke Wechselwirkung</h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ul>
+<li>Beschrieben durch: <strong>QCD</strong> (Quantenchromodynamik)</li>
+<li>Quarks tragen <em>Farbladung</em></li>
+<li>Vermittelt durch Gluonen</li>
+<li>Verantwortlich für ~99% der Masse sichtbarer Materie</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<!-- ```{=html} -->
+<!-- <div style="text-align: center; margin: 2em 0;"> -->
+<!--   <svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"> -->
+<!--     <defs> -->
+<!--       <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"> -->
+<!--         <feGaussianBlur stdDeviation="4" result="blur" /> -->
+<!--         <feMerge> -->
+<!--           <feMergeNode in="blur" /> -->
+<!--           <feMergeNode in="SourceGraphic" /> -->
+<!--         </feMerge> -->
+<!--       </filter> -->
+<!--     </defs> -->
+<!---->
+<!--     <g filter="url(#glow)" stroke="black" stroke-width="3" stroke-linejoin="round"> -->
+<!--       <circle cx="359" cy="300" r="80" fill="#0000ff" /> -->
+<!--       <circle cx="141" cy="300" r="80" fill="#00ff00" /> -->
+<!--       <circle cx="250" cy="100" r="80" fill="#ff0000" /> -->
+<!--     </g> -->
+<!---->
+<!--   </svg> -->
+<!-- </div> -->
+<!-- ``` -->
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="Quark_structure_proton.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="By Arpad Horvath - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=637353"><img data-src="Quark_structure_proton.svg" style="width:100.0%" alt="By Arpad Horvath - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=637353"></a></p>
+<figcaption>By Arpad Horvath - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=637353</figcaption>
+</figure>
+</div>
+</div></div>
+<aside class="notes">
+<p>Farbe als Analogie, keine echte Farbe.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="das-problem" class="slide level2 center">
+<h2>Das Problem</h2>
+<div class="fragment">
+<p>QCD-Gleichungen sind bekannt …</p>
+</div>
+<div class="fragment">
+<p><strong>… aber extrem schwer zu lösen!</strong></p>
+</div>
+<div class="fragment">
+<p><br> Warum?</p>
+</div>
+</section>
+<section id="klassische-physik-vs.-quantenphysik" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Klassische Physik vs.&nbsp;Quantenphysik</h2>
+<div data-id="path" data-auto-animate-delay="0">
+<svg width="700" height="300" viewbox="0 0 700 300">
+  <!-- Klassischer Pfad (gerade Linie, grün) -->
+  <path d="M100 150 L600 150" stroke="#5cb85c" stroke-width="4" fill="none"></path>
+  <text x="280" y="130" fill="#5cb85c">klassisch</text>
+
+  <!-- Start- und Zielpunkt -->
+  <circle cx="100" cy="150" r="8" fill="#ffffff"></circle>
+  <circle cx="600" cy="150" r="8" fill="#ffffff"></circle>
+  <text x="80" y="190" fill="#ffffff">Start</text>
+  <text x="570" y="190" fill="#ffffff">Ziel</text>
+</svg>
+</div>
+<div class="smaller">
+<ul>
+<li><span style="color:#5cb85c; font-weight:bold;"><strong>Klassische Physik:</strong></span> Natur wählt den Pfad mit minimaler <em>Wirkung</em></li>
+</ul>
+</div>
+<div class="smaller">
+<p>Die <em>Wirkung</em> ist eine Zahl, die angibt, wie sehr sich das Universum “anstrengen muss” um einen Pfad durchzuführen (Analogon: Effizienz)</p>
+</div>
+<aside class="notes">
+<p>Pfadintegral-Idee nach Feynman. Betonung: viele Pfade interferieren, klassischer Pfad dominiert.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="klassische-physik-vs.-quantenphysik-1" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Klassische Physik vs.&nbsp;Quantenphysik</h2>
+<div data-id="path" data-auto-animate-delay="0">
+<svg width="700" height="300" viewbox="0 0 700 300">
+  <!-- Klassischer Pfad -->
+  <path d="M100 150 L600 150" stroke="#5cb85c" stroke-width="4" fill="none"></path>
+  <text x="280" y="130" fill="#5cb85c">klassisch</text>
+  <!-- Quantenpfade -->
+  <path d="M100 150 C250 50, 450 50, 600 150" stroke="#5bc0de" stroke-width="2" fill="none" opacity="0.4"></path>
+  <path d="M100 150 C280 60, 150 350, 600 150" stroke="#5bc0de" stroke-width="2" fill="none" opacity="0.3"></path>
+  <path d="M100 150 C175 225, 250 00, 600 150" stroke="#5bc0de" stroke-width="2" fill="none" opacity="0.5"></path>
+  <path d="M100 150 C300 120, 400 180, 600 150" stroke="#5bc0de" stroke-width="2" fill="none" opacity="0.8"></path>
+  <path d="M100 150 C200 180, 300 250, 600 150" stroke="#5bc0de" stroke-width="2" fill="none" opacity="0.6"></path>
+  <path d="M100 150 C150 100, 550 200, 600 150" stroke="#5bc0de" stroke-width="2" fill="none" opacity="0.8"></path>
+  <path d="M100 150 C350 80, 350 220, 600 150" stroke="#5bc0de" stroke-width="2" fill="none" opacity="0.7"></path>
+  <text x="260" y="40" fill="#5bc0de">quantenmechanisch</text>
+
+  <!-- Start- und Zielpunkt -->
+  <circle cx="100" cy="150" r="8" fill="#ffffff"></circle>
+  <circle cx="600" cy="150" r="8" fill="#ffffff"></circle>
+  <text x="80" y="190" fill="#ffffff">Start</text>
+  <text x="570" y="190" fill="#ffffff">Ziel</text>
+</svg>
+</div>
+<div class="smaller">
+<ul>
+<li><span style="color:#5cb85c; font-weight:bold;"><strong>Klassische Physik:</strong></span> Natur wählt den Pfad mit minimaler Wirkung</li>
+<li><span style="color:#5bc0de; font-weight:bold;"><strong>Quantenphysik:</strong></span> Alle Pfade tragen bei, aber kleine Wirkung → größere Bedeutung</li>
+</ul>
+</div>
+<div class="fragment">
+<div class="smaller">
+<p>Aufsummierung und Mittelung aller Pfade wird als <em>Pfadintegral</em> bezeichnet</p>
+</div>
+<aside class="notes">
+<p>Pfadintegral-Idee nach Feynman. Betonung: viele Pfade interferieren, klassischer Pfad dominiert.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="pfadintegral-in-der-qed" class="slide level2 center" data-auto-animate="true" data-auto-animate-easing="ease-in-out">
+<h2 data-id="quarto-animate-title">Pfadintegral in der QED</h2>
+<p>Beispiel: <strong>Elektron–Elektron-Streuung</strong> (Elektronen werden aufeinander geschossen) Ziel: Berechne die Wahrscheinlichkeit, dass das Elektron in einem bestimmten Winkel gestreut wird und vergleiche mit Experiment</p>
+<div data-id="feynman" data-auto-animate-delay="0">
+<div style="text-align: center; margin: 2em 0;">
+  <svg width="700" height="380" viewbox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrow" markerwidth="7" markerheight="7" refx="5" refy="3.5" orient="auto">
+        <path d="M0,0 L7,3.5 L0,7 Z" fill="currentColor"></path>
+      </marker>
+    </defs>
+
+    <line x1="50" y1="350" x2="100" y2="275" stroke="currentColor" stroke-width="3" marker-end="url(#arrow)"></line>
+    <line x1="100" y1="275" x2="150" y2="200" stroke="currentColor" stroke-width="3"></line>
+    
+    <line x1="650" y1="350" x2="600" y2="275" stroke="currentColor" stroke-width="3" marker-end="url(#arrow)"></line>
+    <line x1="600" y1="275" x2="550" y2="200" stroke="currentColor" stroke-width="3"></line>
+
+    <line x1="150" y1="200" x2="100" y2="125" stroke="currentColor" stroke-width="3" marker-end="url(#arrow)"></line>
+    <line x1="100" y1="125" x2="50" y2="50" stroke="currentColor" stroke-width="3"></line>
+
+    <line x1="550" y1="200" x2="600" y2="125" stroke="currentColor" stroke-width="3" marker-end="url(#arrow)"></line>
+    <line x1="600" y1="125" x2="650" y2="50" stroke="currentColor" stroke-width="3"></line>
+
+    <text x="20" y="375" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="660" y="375" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="20" y="45" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="660" y="45" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+  </svg>
+</div>
+</div>
+</section>
+<section id="pfadintegral-in-der-qed-1" class="slide level2 center" data-auto-animate="true" data-auto-animate-easing="ease-in-out">
+<h2 data-id="quarto-animate-title">Pfadintegral in der QED</h2>
+<p>Beispiel: <strong>Elektron–Elektron-Streuung</strong> (Elektronen werden aufeinander geschossen) Ziel: Berechne die Wahrscheinlichkeit, dass das Elektron in einem bestimmten Winkel gestreut wird und vergleiche mit Experiment</p>
+<div data-id="feynman" data-auto-animate-delay="0">
+<div style="text-align: center; margin: 2em 0;">
+  <svg width="700" height="380" viewbox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
+    <line x1="50" y1="350" x2="100" y2="275" stroke="currentColor" stroke-width="3" marker-end="url(#arrow)"></line>
+    <line x1="100" y1="275" x2="150" y2="200" stroke="currentColor" stroke-width="3"></line>
+    
+    <line x1="650" y1="350" x2="600" y2="275" stroke="currentColor" stroke-width="3" marker-end="url(#arrow)"></line>
+    <line x1="600" y1="275" x2="550" y2="200" stroke="currentColor" stroke-width="3"></line>
+
+    <line x1="150" y1="200" x2="100" y2="125" stroke="currentColor" stroke-width="3" marker-end="url(#arrow)"></line>
+    <line x1="100" y1="125" x2="50" y2="50" stroke="currentColor" stroke-width="3"></line>
+
+    <line x1="550" y1="200" x2="600" y2="125" stroke="currentColor" stroke-width="3" marker-end="url(#arrow)"></line>
+    <line x1="600" y1="125" x2="650" y2="50" stroke="currentColor" stroke-width="3"></line>
+
+    <path d="M 150 200 
+             q 25 -15, 50 0 t 50 0 t 50 0 t 50 0 t 50 0 t 50 0 t 50 0 t 50 0" fill="none" stroke="mediumseagreen" stroke-width="3"></path>
+
+    <text x="20" y="375" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="660" y="375" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="20" y="45" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="660" y="45" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="270" y="170" font-family="serif" font-size="28" fill="mediumseagreen">Photon (γ)</text>
+  </svg>
+</div>
+</div>
+<p>Ein Diagramm = ein Term im Pfadintegral (Feynman-Diagramme)</p>
+</section>
+<section id="pfadintegral-in-der-qed-2" class="slide level2 center" data-auto-animate="true" data-auto-animate-easing="ease-in-out">
+<h2 data-id="quarto-animate-title">Pfadintegral in der QED</h2>
+<p>Beispiel: <strong>Elektron–Elektron-Streuung</strong></p>
+<div data-id="feynman" data-auto-animate-delay="0">
+<div style="text-align: center; margin: 2em 0;">
+  <svg width="700" height="400" viewbox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+    <line x1="50" y1="350" x2="100" y2="275" stroke="currentColor" stroke-width="3" marker-end="url(#arrow)"></line>
+    <line x1="100" y1="275" x2="150" y2="200" stroke="currentColor" stroke-width="3"></line>
+    
+    <line x1="650" y1="350" x2="600" y2="275" stroke="currentColor" stroke-width="3" marker-end="url(#arrow)"></line>
+    <line x1="600" y1="275" x2="550" y2="200" stroke="currentColor" stroke-width="3"></line>
+
+    <line x1="150" y1="200" x2="100" y2="125" stroke="currentColor" stroke-width="3" marker-end="url(#arrow)"></line>
+    <line x1="100" y1="125" x2="50" y2="50" stroke="currentColor" stroke-width="3"></line>
+
+    <line x1="550" y1="200" x2="600" y2="125" stroke="currentColor" stroke-width="3" marker-end="url(#arrow)"></line>
+    <line x1="600" y1="125" x2="650" y2="50" stroke="currentColor" stroke-width="3"></line>
+
+    <path d="M 150 200 q 12.5 -15, 25 0 t 25 0 t 25 0 t 25 0" fill="none" stroke="mediumseagreen" stroke-width="3"></path>
+
+    <path d="M 250 200 A 50 50 0 1 1 450 200" fill="none" stroke="currentColor" stroke-width="3"></path>
+    <path d="M 350 100 L 355 100" stroke="currentColor" stroke-width="3" marker-start="url(#arrow)"></path> 
+    
+    <path d="M 250 200 A 50 50 0 1 0 450 200" fill="none" stroke="currentColor" stroke-width="3"></path>
+    <path d="M 355 300 L 350 300" stroke="currentColor" stroke-width="3" marker-start="url(#arrow)"></path>
+
+    <path d="M 450 200 q 12.5 -15, 25 0 t 25 0 t 25 0 t 25 0" fill="none" stroke="mediumseagreen" stroke-width="3"></path>
+
+    <text x="350" y="330" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="345" y="85" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁺</text>
+
+    <text x="20" y="375" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="660" y="375" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="20" y="45" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="660" y="45" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="180" y="170" font-family="serif" font-size="24" fill="mediumseagreen">γ</text>
+    <text x="490" y="170" font-family="serif" font-size="24" fill="mediumseagreen">γ</text>
+  </svg>
+</div>
+</div>
+<div class="fragment">
+<p><strong>Speziell in der QED</strong>: Je mehr Wechselwirkungen, desto unwichtiger werden Pfade (ist nicht immer so)</p>
+</div>
+</section>
+<section id="pfadintegral-in-der-qed-3" class="slide level2 center" data-auto-animate="true" data-auto-animate-easing="ease-in-out">
+<h2 data-id="quarto-animate-title">Pfadintegral in der QED</h2>
+<p>Beispiel: <strong>Elektron–Elektron-Streuung</strong></p>
+<div data-id="feynman" data-auto-animate-delay="0">
+<div style="text-align: center; margin: 2em 0;">
+  <svg width="700" height="400" viewbox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrow2" markerwidth="7" markerheight="7" refx="5" refy="3.5" orient="auto">
+        <path d="M0,0 L7,3.5 L0,7 Z" fill="currentColor"></path>
+      </marker>
+    </defs>
+
+    <line x1="50" y1="350" x2="100" y2="275" stroke="currentColor" stroke-width="3" marker-end="url(#arrow2)"></line>
+    <line x1="100" y1="275" x2="150" y2="200" stroke="currentColor" stroke-width="3"></line>
+    
+    <line x1="650" y1="350" x2="600" y2="275" stroke="currentColor" stroke-width="3" marker-end="url(#arrow2)"></line>
+    <line x1="600" y1="275" x2="550" y2="200" stroke="currentColor" stroke-width="3"></line>
+
+    <line x1="150" y1="200" x2="100" y2="125" stroke="currentColor" stroke-width="3" marker-end="url(#arrow2)"></line>
+    <line x1="100" y1="125" x2="50" y2="50" stroke="currentColor" stroke-width="3"></line>
+
+    <line x1="550" y1="200" x2="600" y2="125" stroke="currentColor" stroke-width="3" marker-end="url(#arrow2)"></line>
+    <line x1="600" y1="125" x2="650" y2="50" stroke="currentColor" stroke-width="3"></line>
+
+    <path d="M 150 200 q 12.5 -15, 25 0 t 25 0 t 25 0 t 25 0" fill="none" stroke="mediumseagreen" stroke-width="3"></path>
+
+    <path d="M 250 200 A 50 50 0 1 1 450 200" fill="none" stroke="currentColor" stroke-width="3"></path>
+    <path d="M 350 100 L 355 100" stroke="currentColor" stroke-width="3" marker-start="url(#arrow2)"></path> 
+    
+    <path d="M 250 200 A 50 50 0 1 0 450 200" fill="none" stroke="currentColor" stroke-width="3"></path>
+    <path d="M 355 300 L 350 300" stroke="currentColor" stroke-width="3" marker-start="url(#arrow2)"></path>
+
+    <path d="M 450 200 q 12.5 -15, 25 0 t 25 0 t 25 0 t 25 0" fill="none" stroke="mediumseagreen" stroke-width="3"></path>
+
+    <text x="350" y="330" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="345" y="85" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁺</text>
+
+    <text x="20" y="375" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="660" y="375" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="20" y="45" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="660" y="45" font-family="serif" font-style="italic" font-size="28" fill="currentColor">e⁻</text>
+    <text x="180" y="170" font-family="serif" font-size="24" fill="mediumseagreen">γ</text>
+    <text x="490" y="170" font-family="serif" font-size="24" fill="mediumseagreen">γ</text>
+  </svg>
+</div>
+</div>
+<p>→ Um Observablen zu berechnen und mit Experimenten vergleichen zu können braucht man nur eine <strong>endliche</strong> Anzahl an Diagrammen</p>
+</section>
+<section id="wichtige-klarstellung" class="slide level2 center">
+<h2>Wichtige Klarstellung</h2>
+<ul>
+<li>Feynman-Diagramme sind <strong>keine echten Teilchenbahnen</strong></li>
+<li>Sie sind ein mathematischer Trick</li>
+<li>Hilfreich, um das Pfadintegral übersichtlich zu berechnen</li>
+<li>Bewart uns fürs erste davor, tiefer in die <em>Quantenfeldtheorie</em> gehen zu müssen</li>
+</ul>
+<aside class="notes">
+<p>Nicht als Zeitablauf interpretieren!</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="und-jetzt-qcd" class="slide level2 center">
+<h2>Und jetzt: QCD</h2>
+<ul>
+<li>Starke Kopplung: Komplizierte Diagramme werden <strong>nicht</strong> unwichtig</li>
+<li>Unendlich viele wichtige Diagramme</li>
+</ul>
+<div class="fragment">
+<p><strong>→ Keine andere Wahl mehr, als mit Feldern zu rechnen!</strong></p>
+<aside class="notes">
+<p>Perfekter Übergang zur Gitteridee.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="rechnen-in-der-quantenfeldtheorie-qft" class="slide level2 center">
+<h2>Rechnen in der Quantenfeldtheorie (QFT)</h2>
+<ul>
+<li>Teilchen sind Anregungen verschiedener Quantenfelder</li>
+<li>Für Rechnungen muss die Raumzeit diskretisiert werden</li>
+<li>Hochdimensionale Integrale (meist mindestens <span class="math inline">10^6</span> Variablen)</li>
+<li>Kann nicht analytisch berechnet werden → Wir müssen Computer verwenden!</li>
+<li>QCD auf dem Computer: <em>Lattice QCD</em></li>
+</ul>
+<div class="fragment">
+<p><img data-src="latticeqcd_spiderman.jpg" style="width:25.0%"> <img data-src="shocked.png" style="width:12.0%"></p>
+</div>
+</section>
+<section id="die-idee-von-lattice-qcd" class="slide level2 center">
+<h2>Die Idee von Lattice QCD</h2>
+<div class="quarto-layout-panel" data-layout="[ [1,1] ]">
+<div class="quarto-layout-row">
+<div class="r-stack quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ul>
+<li>Beschränke das Universum auf ein <strong>sehr kleines Volumen</strong> (kleiner als ein Atom)</li>
+<li>Raum und Zeit werden zum <em>Gitter</em> (eng.: <em>Lattice</em>)</li>
+<li>Quarks sitzen auf Gitterpunkten</li>
+<li>Gluonen auf den Verbindungen <!-- - An jedem Punkt und an jeder Verbindung haben die Felder irgendeinen Wert --></li>
+<li>Genaue Größe des Gitters wird vor der Simulation festgelegt</li>
+<li>Echte Physik bekommt man nur im Fall <em><span class="math inline">a \rightarrow 0</span></em></li>
+</ul>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div style="text-align: center; margin: 2em 0;">
+  <svg width="600" height="500" viewbox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrow1" markerwidth="5" markerheight="5" refx="3" refy="2.5" orient="auto-start-reverse">
+        <path d="M0,0 L5,2.5 L0,5 Z" fill="yellow"></path>
+      </marker>
+    </defs>
+
+    <style>
+      .grid-line { stroke: #ccc; stroke-width: 1; stroke-dasharray: 4; }
+      .gauge-link { stroke: mediumseagreen; stroke-width: 4; fill: none; }
+      .fermion-site { fill: currentColor; }
+      .label-text { font-family: sans-serif; font-size: 20px; fill: currentColor; font-weight: bold; }
+      .fermion-label { font-family: sans-serif; font-size: 16px; fill: currentColor; font-weight: bold; }
+      .gauge-label { font-family: sans-serif; font-size: 16px; fill: currentColor; }
+      .axis-label { font-family: sans-serif; font-size: 20px; fill: yellow; font-style: italic; }
+    </style>
+
+    <line x1="100" y1="50" x2="500" y2="50" class="grid-line"></line>
+    <line x1="100" y1="150" x2="500" y2="150" class="grid-line"></line>
+    <line x1="100" y1="250" x2="500" y2="250" class="grid-line"></line>
+    <line x1="100" y1="350" x2="500" y2="350" class="grid-line"></line>
+    <line x1="100" y1="450" x2="500" y2="450" class="grid-line"></line>
+    <line x1="100" y1="50" x2="100" y2="450" class="grid-line"></line>
+    <line x1="200" y1="50" x2="200" y2="450" class="grid-line"></line>
+    <line x1="300" y1="50" x2="300" y2="450" class="grid-line"></line>
+    <line x1="400" y1="50" x2="400" y2="450" class="grid-line"></line>
+    <line x1="500" y1="50" x2="500" y2="450" class="grid-line"></line>
+
+    <circle cx="100" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="50" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="150" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="250" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="350" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="450" r="6" class="fermion-site"></circle>
+
+    <text x="155" y="335" class="fermion-label">Fermion(n)</text>
+    <!-- <text x="285" y="335" class="label-text">ψ(n+μ)</text> -->
+    <!-- <text x="145" y="195" class="label-text">ψ(n+ν)</text> -->
+    <!--  -->
+    <text x="215" y="370" class="gauge-label">Gluon₁(n)</text>
+    <text x="125" y="305" class="gauge-label">Gluon₂(n)</text>
+    <text x="290" y="490" class="axis-label">L₁</text>
+    <text x="525" y="255" class="axis-label">L₂</text>
+    <text x="445" y="25" class="axis-label">a</text>
+
+    <line x1="100" y1="465" x2="500" y2="465" stroke="yellow" stroke-width="3" marker-end="url(#arrow1)" marker-start="url(#arrow1)"></line>
+    <line x1="100" y1="465" x2="500" y2="465" stroke="yellow" stroke-width="3"></line>
+    <line x1="515" y1="50" x2="515" y2="450" stroke="yellow" stroke-width="3" marker-end="url(#arrow1)" marker-start="url(#arrow1)"></line>
+    <line x1="515" y1="50" x2="515" y2="450" stroke="yellow" stroke-width="3"></line>
+
+    <line x1="400" y1="35" x2="500" y2="35" stroke="yellow" stroke-width="3" marker-end="url(#arrow1)" marker-start="url(#arrow1)"></line>
+    <line x1="400" y1="35" x2="500" y2="35" stroke="yellow" stroke-width="3"></line>
+
+  </svg>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Vergleich mit Pixeln auf einem Bildschirm. Warum dieser trick funktioniert ist etwas zu kompliziert für heute…</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="lattice-qcd" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Lattice QCD</h2>
+<p><strong>Wie rechnet man jetzt auf dem Gitter?</strong></p>
+<ul>
+<li>Ähnlich zum Pfadintegral brauchen wir jetzt die wichtigen <strong>Feldkonfigurationen</strong></li>
+<li>Aber wie gesagt, gibt es in der QCD unendlich viele</li>
+</ul>
+<div class="fragment">
+<p><strong>Brauchen wir denn wirklich alle?</strong></p>
+</div>
+</section>
+<section id="lattice-qcd-1" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Lattice QCD</h2>
+<ul>
+<li>Vergleich mit etwas bekanntem: <strong>Umfragen</strong></li>
+</ul>
+<div class="fragment">
+<ul>
+<li>In Umfragen wird nur ein kleiner <em>representativer Teil</em> der Bevölkerung befragt</li>
+<li>Das Ergebnis hat dann eine gewisse Unsicherheit, diese ist aber proportional zu <span class="math inline">1 / \sqrt{N_\textrm{Befragte}}</span></li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Genau so simulieren wir also auch nur einen representativen Teil der wichtigen Feldkonfigurationen in Lattice QCD</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="lattice-qcd-2" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Lattice QCD</h2>
+<ul>
+<li><strong>Weitere Probleme:</strong> Wissen wir welche Konfigurationen wichtig sind? Und wie generieren wir sie?</li>
+</ul>
+<div class="fragment fade-up">
+<ul>
+<li>Antwort auf die erste Frage: Ja, aber nur wenn wir sie schon haben…</li>
+</ul>
+</div>
+<div class="fragment fade-up">
+<ul>
+<li>Antwort auf die zweite Frage: Es ist schwer…</li>
+</ul>
+</div>
+<!-- ## Lattice QCD {auto-animate=true} -->
+<!-- **Die (soweit beste) Lösung: Markov-Chain Monte Carlo** -->
+<!---->
+<!-- :::: {.columns} -->
+<!---->
+<!-- ::: {.column width="50%"} -->
+<!---->
+<!-- 1. Wir starten mit irgendeiner Konfig -->
+<!-- 2. Ändern sie an jedem Punkt und jeder Verbindung ein bisschen -->
+<!-- 3. Berechnen den Wirkungsunterschied zwischen der neuen und der alten Konfig $\Delta S$ -->
+<!-- 4. Die neue Konfig ist der neue Startpunkt mit Wahrscheinlichkeit $e^{-\Delta S}$ -->
+<!-- 5. So oft wiederholen bis die Unsicherheit auf Messwerten klein genug ist -->
+<!---->
+<!-- ::: -->
+<!---->
+<!-- ::: {.column width="50%"} -->
+<!-- ::: {data-id="lattice" auto-animate-delay="0"} -->
+<!-- ```{=html} -->
+<!-- <div style="text-align: center; margin: 0em 0;"> -->
+<!--   <svg width="600" height="500" viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg"> -->
+<!--     <defs> -->
+<!--       <marker id="arrow1" markerWidth="5" markerHeight="5" refX="3" refY="2.5" orient="auto-start-reverse"> -->
+<!--         <path d="M0,0 L5,2.5 L0,5 Z" fill="yellow" /> -->
+<!--       </marker> -->
+<!--     </defs> -->
+<!---->
+<!--     <style> -->
+<!--       .grid-line { stroke: #ccc; stroke-width: 1; stroke-dasharray: 4; } -->
+<!--       .gauge-link { stroke: mediumseagreen; stroke-width: 4; fill: none; } -->
+<!--       .fermion-site { fill: currentColor; } -->
+<!--       .label-text { font-family: sans-serif; font-size: 20px; fill: currentColor; } -->
+<!--       .gauge-label { font-family: sans-serif; font-size: 20px; fill: currentColor; font-weight: bold; } -->
+<!--       .axis-label { font-family: sans-serif; font-size: 20px; fill: yellow; font-style: italic; } -->
+<!--       .pos-label { font-family: sans-serif; font-size: 20px; fill: green; font-style: bold; } -->
+<!--       .neg-label { font-family: sans-serif; font-size: 20px; fill: red; font-style: bold; } -->
+<!--     </style> -->
+<!---->
+<!--     <line x1="100" y1="50"  x2="500" y2="50"  class="grid-line" /> -->
+<!--     <line x1="100" y1="150" x2="500" y2="150" class="grid-line" /> -->
+<!--     <line x1="100" y1="250" x2="500" y2="250" class="grid-line" /> -->
+<!--     <line x1="100" y1="350" x2="500" y2="350" class="grid-line" /> -->
+<!--     <line x1="100" y1="450" x2="500" y2="450" class="grid-line" /> -->
+<!--     <line x1="100" y1="50" x2="100" y2="450" class="grid-line" /> -->
+<!--     <line x1="200" y1="50" x2="200" y2="450" class="grid-line" /> -->
+<!--     <line x1="300" y1="50" x2="300" y2="450" class="grid-line" /> -->
+<!--     <line x1="400" y1="50" x2="400" y2="450" class="grid-line" /> -->
+<!--     <line x1="500" y1="50" x2="500" y2="450" class="grid-line" /> -->
+<!---->
+<!--     <circle cx="100" cy="50" r="6" class="fermion-site" /> -->
+<!--     <circle cx="200" cy="50" r="6" class="fermion-site" /> -->
+<!--     <circle cx="300" cy="50" r="6" class="fermion-site" /> -->
+<!--     <circle cx="400" cy="50" r="6" class="fermion-site" /> -->
+<!--     <circle cx="500" cy="50" r="6" class="fermion-site" /> -->
+<!---->
+<!--     <circle cx="100" cy="150" r="6" class="fermion-site" /> -->
+<!--     <circle cx="200" cy="150" r="6" class="fermion-site" /> -->
+<!--     <circle cx="300" cy="150" r="6" class="fermion-site" /> -->
+<!--     <circle cx="400" cy="150" r="6" class="fermion-site" /> -->
+<!--     <circle cx="500" cy="150" r="6" class="fermion-site" /> -->
+<!---->
+<!--     <circle cx="100" cy="250" r="6" class="fermion-site" /> -->
+<!--     <circle cx="200" cy="250" r="6" class="fermion-site" /> -->
+<!--     <circle cx="300" cy="250" r="6" class="fermion-site" /> -->
+<!--     <circle cx="400" cy="250" r="6" class="fermion-site" /> -->
+<!--     <circle cx="500" cy="250" r="6" class="fermion-site" /> -->
+<!---->
+<!--     <circle cx="100" cy="350" r="6" class="fermion-site" /> -->
+<!--     <circle cx="200" cy="350" r="6" class="fermion-site" /> -->
+<!--     <circle cx="300" cy="350" r="6" class="fermion-site" /> -->
+<!--     <circle cx="400" cy="350" r="6" class="fermion-site" /> -->
+<!--     <circle cx="500" cy="350" r="6" class="fermion-site" /> -->
+<!---->
+<!--     <circle cx="100" cy="450" r="6" class="fermion-site" /> -->
+<!--     <circle cx="200" cy="450" r="6" class="fermion-site" /> -->
+<!--     <circle cx="300" cy="450" r="6" class="fermion-site" /> -->
+<!--     <circle cx="400" cy="450" r="6" class="fermion-site" /> -->
+<!--     <circle cx="500" cy="450" r="6" class="fermion-site" /> -->
+<!---->
+<!--     <text x="210" y="370" class="pos-label">+0.04 ↑</text> -->
+<!--     <text x="320" y="170" class="neg-label">-0.12 ↓</text> -->
+<!--   </svg> -->
+<!-- </div> -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
+<!---->
+<!-- :::: -->
+</section>
+<section id="lattice-qcd-3" class="slide level2 center" data-auto-animate="true" data-auto-animate-easing="ease-in-out">
+<h2 data-id="quarto-animate-title">Lattice QCD</h2>
+<p><strong>Die (soweit beste) Lösung: Markov-Chain Monte Carlo (MCMC)</strong></p>
+<ol type="1">
+<li>Wir starten mit irgendeiner Konfig <span class="math inline">U</span> mit Wirkung <span class="math inline">S(U)</span></li>
+</ol>
+<div data-id="lattice" data-auto-animate-delay="0">
+<div style="text-align: center; margin: 0em 0;">
+  <svg width="600" height="500" viewbox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrow1" markerwidth="5" markerheight="5" refx="3" refy="2.5" orient="auto-start-reverse">
+        <path d="M0,0 L5,2.5 L0,5 Z" fill="yellow"></path>
+      </marker>
+    </defs>
+
+    <style>
+      .grid-line { stroke: #ccc; stroke-width: 1; stroke-dasharray: 4; }
+      .gauge-link { stroke: mediumseagreen; stroke-width: 4; fill: none; }
+      .fermion-site { fill: currentColor; }
+      .label-text { font-family: sans-serif; font-size: 20px; fill: currentColor; }
+      .axis-label { font-family: sans-serif; font-size: 20px; fill: yellow; font-style: italic; }
+      .pos-label { font-family: sans-serif; font-size: 20px; fill: green; font-style: bold; }
+      .neg-label { font-family: sans-serif; font-size: 20px; fill: red; font-style: bold; }
+      .link-label { font-family: sans-serif; font-size: 16px; fill: white; font-style: bold; }
+    </style>
+
+    <line x1="100" y1="50" x2="500" y2="50" class="grid-line"></line>
+    <line x1="100" y1="150" x2="500" y2="150" class="grid-line"></line>
+    <line x1="100" y1="250" x2="500" y2="250" class="grid-line"></line>
+    <line x1="100" y1="350" x2="500" y2="350" class="grid-line"></line>
+    <line x1="100" y1="450" x2="500" y2="450" class="grid-line"></line>
+    <line x1="100" y1="50" x2="100" y2="450" class="grid-line"></line>
+    <line x1="200" y1="50" x2="200" y2="450" class="grid-line"></line>
+    <line x1="300" y1="50" x2="300" y2="450" class="grid-line"></line>
+    <line x1="400" y1="50" x2="400" y2="450" class="grid-line"></line>
+    <line x1="500" y1="50" x2="500" y2="450" class="grid-line"></line>
+
+    <circle cx="100" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="50" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="150" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="250" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="350" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="450" r="6" class="fermion-site"></circle>
+  </svg>
+</div>
+</div>
+</section>
+<section id="lattice-qcd-4" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Lattice QCD</h2>
+<p><strong>Die (soweit beste) Lösung: Markov-Chain Monte Carlo (MCMC)</strong></p>
+<ol start="2" type="1">
+<li>Ändern sie an jedem Punkt und jeder Verbindung ein bisschen</li>
+</ol>
+<div data-id="lattice" data-auto-animate-delay="0">
+<div style="text-align: center; margin: 0em 0;">
+  <svg width="600" height="500" viewbox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrow1" markerwidth="5" markerheight="5" refx="3" refy="2.5" orient="auto-start-reverse">
+        <path d="M0,0 L5,2.5 L0,5 Z" fill="yellow"></path>
+      </marker>
+    </defs>
+
+    <style>
+      .grid-line { stroke: #ccc; stroke-width: 1; stroke-dasharray: 4; }
+      .gauge-link { stroke: mediumseagreen; stroke-width: 4; fill: none; }
+      .fermion-site { fill: currentColor; }
+      .label-text { font-family: sans-serif; font-size: 20px; fill: currentColor; }
+      .axis-label { font-family: sans-serif; font-size: 20px; fill: yellow; font-style: italic; }
+      .pos-label { font-family: sans-serif; font-size: 20px; fill: green; font-style: bold; }
+      .neg-label { font-family: sans-serif; font-size: 20px; fill: red; font-style: bold; }
+      .link-label { font-family: sans-serif; font-size: 16px; fill: white; font-style: bold; }
+    </style>
+
+    <line x1="100" y1="50" x2="500" y2="50" class="grid-line"></line>
+    <line x1="100" y1="150" x2="500" y2="150" class="grid-line"></line>
+    <line x1="100" y1="250" x2="500" y2="250" class="grid-line"></line>
+    <line x1="100" y1="350" x2="500" y2="350" class="grid-line"></line>
+    <line x1="100" y1="450" x2="500" y2="450" class="grid-line"></line>
+    <line x1="100" y1="50" x2="100" y2="450" class="grid-line"></line>
+    <line x1="200" y1="50" x2="200" y2="450" class="grid-line"></line>
+    <line x1="300" y1="50" x2="300" y2="450" class="grid-line"></line>
+    <line x1="400" y1="50" x2="400" y2="450" class="grid-line"></line>
+    <line x1="500" y1="50" x2="500" y2="450" class="grid-line"></line>
+
+    <line x1="200" y1="350" x2="300" y2="350" class="greengauge-link"></line>
+    <line x1="300" y1="150" x2="400" y2="150" class="redgauge-link"></line>
+
+    <circle cx="100" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="50" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="150" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="250" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="350" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="450" r="6" class="fermion-site"></circle>
+
+    <text x="210" y="370" class="pos-label">+0.04 ↑</text>
+    <text x="320" y="170" class="neg-label">-0.12 ↓</text>
+  </svg>
+</div>
+</div>
+</section>
+<section id="lattice-qcd-5" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Lattice QCD</h2>
+<p><strong>Die (soweit beste) Lösung: Markov-Chain Monte Carlo (MCMC)</strong></p>
+<ol start="3" type="1">
+<li>Berechnen den Wirkungsunterschied zwischen der neuen und der alten Konfig <span class="math inline">\Delta S</span></li>
+</ol>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div data-id="lattice1" data-auto-animate-delay="0">
+<div style="text-align: center; margin: 0em 0;">
+  <svg width="600" height="500" viewbox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrow1" markerwidth="5" markerheight="5" refx="3" refy="2.5" orient="auto-start-reverse">
+        <path d="M0,0 L5,2.5 L0,5 Z" fill="yellow"></path>
+      </marker>
+    </defs>
+
+    <style>
+      .grid-line { stroke: #ccc; stroke-width: 1; stroke-dasharray: 4; }
+      .gauge-link { stroke: mediumseagreen; stroke-width: 4; fill: none; }
+      .fermion-site { fill: currentColor; }
+      .label-text { font-family: sans-serif; font-size: 20px; fill: currentColor; }
+      .axis-label { font-family: sans-serif; font-size: 20px; fill: yellow; font-style: italic; }
+      .pos-label { font-family: sans-serif; font-size: 20px; fill: green; font-style: bold; }
+      .neg-label { font-family: sans-serif; font-size: 20px; fill: red; font-style: bold; }
+      .link-label { font-family: sans-serif; font-size: 16px; fill: white; font-style: bold; }
+    </style>
+
+    <line x1="100" y1="50" x2="500" y2="50" class="grid-line"></line>
+    <line x1="100" y1="150" x2="500" y2="150" class="grid-line"></line>
+    <line x1="100" y1="250" x2="500" y2="250" class="grid-line"></line>
+    <line x1="100" y1="350" x2="500" y2="350" class="grid-line"></line>
+    <line x1="100" y1="450" x2="500" y2="450" class="grid-line"></line>
+    <line x1="100" y1="50" x2="100" y2="450" class="grid-line"></line>
+    <line x1="200" y1="50" x2="200" y2="450" class="grid-line"></line>
+    <line x1="300" y1="50" x2="300" y2="450" class="grid-line"></line>
+    <line x1="400" y1="50" x2="400" y2="450" class="grid-line"></line>
+    <line x1="500" y1="50" x2="500" y2="450" class="grid-line"></line>
+
+    <circle cx="100" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="50" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="150" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="250" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="350" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="450" r="6" class="fermion-site"></circle>
+  </svg>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div data-id="lattice" data-auto-animate-delay="0">
+<div style="text-align: center; margin: 0em 0;">
+  <svg width="600" height="500" viewbox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrow1" markerwidth="5" markerheight="5" refx="3" refy="2.5" orient="auto-start-reverse">
+        <path d="M0,0 L5,2.5 L0,5 Z" fill="yellow"></path>
+      </marker>
+    </defs>
+
+    <style>
+      .grid-line { stroke: #ccc; stroke-width: 1; stroke-dasharray: 4; }
+      .gauge-link { stroke: mediumseagreen; stroke-width: 4; fill: none; }
+      .fermion-site { fill: currentColor; }
+      .label-text { font-family: sans-serif; font-size: 20px; fill: currentColor; }
+      .axis-label { font-family: sans-serif; font-size: 20px; fill: yellow; font-style: italic; }
+      .pos-label { font-family: sans-serif; font-size: 20px; fill: green; font-style: bold; }
+      .neg-label { font-family: sans-serif; font-size: 20px; fill: red; font-style: bold; }
+      .link-label { font-family: sans-serif; font-size: 16px; fill: white; font-style: bold; }
+    </style>
+
+    <line x1="100" y1="50" x2="500" y2="50" class="grid-line"></line>
+    <line x1="100" y1="150" x2="500" y2="150" class="grid-line"></line>
+    <line x1="100" y1="250" x2="500" y2="250" class="grid-line"></line>
+    <line x1="100" y1="350" x2="500" y2="350" class="grid-line"></line>
+    <line x1="100" y1="450" x2="500" y2="450" class="grid-line"></line>
+    <line x1="100" y1="50" x2="100" y2="450" class="grid-line"></line>
+    <line x1="200" y1="50" x2="200" y2="450" class="grid-line"></line>
+    <line x1="300" y1="50" x2="300" y2="450" class="grid-line"></line>
+    <line x1="400" y1="50" x2="400" y2="450" class="grid-line"></line>
+    <line x1="500" y1="50" x2="500" y2="450" class="grid-line"></line>
+
+    <line x1="200" y1="350" x2="300" y2="350" class="greengauge-link"></line>
+    <line x1="300" y1="150" x2="400" y2="150" class="redgauge-link"></line>
+
+    <circle cx="100" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="50" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="150" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="250" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="350" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="450" r="6" class="fermion-site"></circle>
+
+    <text x="210" y="370" class="pos-label">+0.04 ↑</text>
+    <text x="320" y="170" class="neg-label">-0.12 ↓</text>
+  </svg>
+</div>
+</div>
+</div></div>
+</section>
+<section id="lattice-qcd-6" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Lattice QCD</h2>
+<p><strong>Die (soweit beste) Lösung: Markov-Chain Monte Carlo (MCMC)</strong></p>
+<ol start="4" type="1">
+<li>Die neue Konfig wird mit Wahrscheinlichkeit <span class="math inline">e^{-\Delta S}</span> angenommen</li>
+</ol>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div data-id="lattice1" data-auto-animate-delay="0">
+<div style="text-align: center; margin: 0em 0;">
+  <svg width="600" height="500" viewbox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrow1" markerwidth="5" markerheight="5" refx="3" refy="2.5" orient="auto-start-reverse">
+        <path d="M0,0 L5,2.5 L0,5 Z" fill="yellow"></path>
+      </marker>
+    </defs>
+
+    <style>
+      .grid-line { stroke: #ccc; stroke-width: 1; stroke-dasharray: 4; }
+      .greengauge-link { stroke: green; stroke-width: 4; fill: none; }
+      .redgauge-link { stroke: red; stroke-width: 4; fill: none; }
+      .fermion-site { fill: currentColor; }
+      .label-text { font-family: sans-serif; font-size: 20px; fill: currentColor; }
+      .axis-label { font-family: sans-serif; font-size: 20px; fill: yellow; font-style: italic; }
+      .pos-label { font-family: sans-serif; font-size: 20px; fill: green; font-style: bold; }
+      .neg-label { font-family: sans-serif; font-size: 20px; fill: red; font-style: bold; }
+      .link-label { font-family: sans-serif; font-size: 16px; fill: white; font-style: bold; }
+    </style>
+
+    <line x1="100" y1="50" x2="500" y2="50" class="grid-line"></line>
+    <line x1="100" y1="150" x2="500" y2="150" class="grid-line"></line>
+    <line x1="100" y1="250" x2="500" y2="250" class="grid-line"></line>
+    <line x1="100" y1="350" x2="500" y2="350" class="grid-line"></line>
+    <line x1="100" y1="450" x2="500" y2="450" class="grid-line"></line>
+    <line x1="100" y1="50" x2="100" y2="450" class="grid-line"></line>
+    <line x1="200" y1="50" x2="200" y2="450" class="grid-line"></line>
+    <line x1="300" y1="50" x2="300" y2="450" class="grid-line"></line>
+    <line x1="400" y1="50" x2="400" y2="450" class="grid-line"></line>
+    <line x1="500" y1="50" x2="500" y2="450" class="grid-line"></line>
+
+    <line x1="200" y1="350" x2="300" y2="350" class="greengauge-link"></line>
+    <line x1="300" y1="150" x2="400" y2="150" class="redgauge-link"></line>
+
+    <circle cx="100" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="50" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="50" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="150" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="150" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="250" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="250" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="350" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="350" r="6" class="fermion-site"></circle>
+
+    <circle cx="100" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="200" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="300" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="400" cy="450" r="6" class="fermion-site"></circle>
+    <circle cx="500" cy="450" r="6" class="fermion-site"></circle>
+  </svg>
+</div>
+</div>
+</div><div class="column" style="width:40%;">
+<p><span class="math inline">r \in [0.0, 1.0]</span></p>
+<p><span class="math inline">\Delta S &lt; r \Rightarrow \textrm{akzeptiert}</span></p>
+</div></div>
+</section>
+<section id="mcmc" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">MCMC</h2>
+<ul>
+<li>Funktioniert ganz gut, da über die Jahre sehr viele Tricks und Verbesserungen vorgeschlagen wurden</li>
+<li><strong>ABER</strong>, da jede Konfig direkt von der letzten abhängt, gibt es neue Schwierigkeiten:</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Es gibt nun eine sogenannte <strong>Autokorrelationszeit</strong> <span class="math inline">\tau</span> (Bedeutung: Wie viele Konfigs liegen zwischen zwei statistisch unabhängigen)</li>
+<li>Die Unsicherheit unserer Messwerte ist proportional zu <span class="math inline">\tau</span></li>
+<li><span class="math inline">\tau</span> steigt sehr schnell mit kleiner werdendem Gitterabstand <span class="math inline">a</span></li>
+<li>Für die meisten Observablen geht <span class="math inline">\tau</span> mit <span class="math inline">a^{-2}</span></li>
+<li>Eine bestimmte Observable zeigt aber <span class="math inline">\tau \sim a^{-5}</span> oder schlesteres Verhalten</li>
+</ul>
+</div>
+</section>
+<section id="mcmc-1" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">MCMC</h2>
+<ul>
+<li>Eine bestimmte Observable zeigt aber <span class="math inline">\tau \sim a^{-5}</span> oder schlesteres Verhalten</li>
+<li>Der Grund dafür sind sog. <em>Wirkungsbarrieren</em>, welche mit kleinerem Gitterabstand größer werden</li>
+</ul>
+<div class="columns">
+<div class="column" style="width:70%;">
+<div class="fragment">
+<div id="2" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display" data-execution_count="1">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA5gAAAHMCAYAAACwSAd1AAAABmJLR0QA/wD/AP+gvaeTAAAgAElEQVR4nOzdeZxcVZ03/s/31tLdWQiLbAlB1gQI+yqigqCiPqLOqJlHRZyQNC0yL34OjrPoLD3OM888PjM6I/MT6HQWxYUxjhvuAioIArLJIgkQBLKxkxBCumu73+ePquo651RX0l11q+72eb9eeYVzcureY9t17/3ec873AERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERGmnqnuq6hlh94OIiIiIiIhiTlVXaNUJYfeFiIiIiIioW7ywO5ASc5y/iYiIiIiIEocBJhEREREREQWCASYREREREREFggEmERERERERBYIBJhEREREREQWCASYREREREREFggEmERERERERBSIbdgcohYbVw4HFBfAgmJN/FIulEnaXiIiIiCiBVupsVEqHI5d7BkvkmbC7kwYcwaTeWlFchnnlDfBkLSAP4+XiRqwoDoXdLSIiIiJKkBW6N5YXV8IvvQDBfSiXnsZo8VcYLRwfdteSjgEm9YaqYEXxS1CMAjqv8Q9yIBTXYLQ4AlUJr4NERERElAgrX50LLd0OwcUA8sa/nA3I7RgtvTWsrqUBA0zqjZXlT0Hx8V20uASj5b/sWX+IiIiIKHmu1D74ue8DWNCixQxAv43RwtG97FaaMMCk7ltZPAGq/8uqEzwG4FG7Tv8JI4XjetgzIiIiIkqSgeJnAJzq1P4CwJhRng3IV7FGM73rWHowwKTu8/GfAHJGzX2Q3Cko5k4BcI9Rn4PIF3vbOSIiIiJKhNGxQwFxZsTJMAbz5wFyPoCC8Q+nYFtpsJfdSwsGmNRdo+V3AnijUTOGiv8nWCqv4DLZgYr/QQDjE/8qeDOWl97S624SERERUdxl/g5An1FxC5ZlPwsAGMz9GiJ/bzUX/Xt8QQd61790YIBJXeZ/2iqKfh4f639sovyx/scA/Q+nzV/1pGtERERElAyjOw8CcKFR48PD5RDRiZpK9t8B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">
+</div>
+</div>
+<ul>
+<li>Bereiche mit hoher Wirkung können von üblichen Algorithmen nicht gut überquert werden</li>
+</ul>
+</div>
+</div><div class="column" style="width:30%;">
+<div class="fragment fade-up">
+<p><strong>Hieran arbeite ich!</strong></p>
+</div>
+</div></div>
+</section>
+<section id="was-mache-ich-konkret" class="slide level2 center">
+<h2>Was mache ich konkret?</h2>
+<div class="r-stack">
+<div class="fragment fade-in-then-out" data-fragment-index="1" style="text-align: center;">
+<p><strong>Entwicklung &amp; Analyse von Simulationen</strong> <img data-src="codesnippet.png" width="700" height="400"></p>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="2" style="text-align: center;">
+<p><strong>Veröffentlichung und Lesen von Artikeln</strong> <img data-src="papersnippet.png" width="800" height="450"></p>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="3" style="text-align: center;">
+<p><strong>      Lehre      </strong> <img data-src="lehresnippet.jpg" width="700" height="400"></p>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="4" style="text-align: center;">
+<p><strong>Diskussion mit Physiker:innen weltweit auf Konferenzen oder Workshops</strong> <img data-src="ectpicture.jpg" width="450" height="550"></p>
+</div>
+</div>
+<!---->
+<!-- :::: {.columns} -->
+<!-- ::: {.column width="50%"} -->
+<!-- :::{.fragment} -->
+<!-- - Entwicklung & Analyse von Simulationen -->
+<!-- ::: -->
+<!-- ::: -->
+<!---->
+<!-- ::: {.column width="50%"} -->
+<!-- :::{.fragment} -->
+<!-- - Veröffentlichung und Lesen von Artikeln -->
+<!-- ::: -->
+<!-- ::: -->
+<!---->
+<!-- ::: {.column width="50%"} -->
+<!-- :::{.fragment} -->
+<!-- - Lehre -->
+<!-- ::: -->
+<!-- ::: -->
+<!---->
+<!-- ::: {.column width="50%"} -->
+<!-- :::{.fragment} -->
+<!-- - Diskussion mit Physiker:innen weltweit auf Konferenzen oder Workshops -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- :::: -->
+</section>
+<section id="warum-physik-studieren" class="slide level2 center">
+<h2>Warum Physik studieren?</h2>
+<ul>
+<li>Lernen, komplexe Probleme zu lösen</li>
+<li>Sehr breite Berufsmöglichkeiten</li>
+<li>Neugier als Job 😄</li>
+</ul>
+</section>
+<section id="take-home-message" class="slide level2 center">
+<h2>Take-Home Message</h2>
+<ul>
+<li>Die Welt ist auf kleinster Skala extrem spannend</li>
+<li>Die allermeisten Rechungen sind nicht mehr analytisch möglich</li>
+<li>Lattice QCD verbindet Physik &amp; Informatik (ohne langweiligen IT Kram)</li>
+<li>Vielleicht sitzt hier eine zukünftige Physikerin / ein zukünftiger Physiker 😉</li>
+</ul>
+</section>
+<section id="fragen" class="slide level2 center">
+<h2>Fragen?</h2>
+</section>
+<section id="danke-fürs-zuhören" class="title-slide slide level1 center">
+<h1>Danke fürs Zuhören!</h1>
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="main_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="main_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="main_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="main_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="main_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="main_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="main_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="main_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="main_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="main_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":false},
+'smaller': true,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: false,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Kopiert");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Kopiert");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
+    
+
+</body></html>
