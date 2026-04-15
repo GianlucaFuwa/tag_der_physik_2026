@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "slides.html#warum-teilchenphysik",
+    "href": "slides.html#warum-teilchenphysik",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Warum Teilchenphysik?",
+    "text": "Warum Teilchenphysik?\n\nKurz vorstellen: Name, Promotion, warum ich Physik mache.\n\n\n\n\nWoraus besteht die Welt wirklich?\nWarum haben Teilchen Masse?\nWas hält Protonen & Neutronen zusammen?\nLassen sich mathematische Formeln zur Beschreibung der Natur finden?\n\n\n\n\n\nhttps://particle.univie.ac.at/\n\n\n\n\nAlltagsbezug herstellen, Neugier wecken."
+  },
+  {
+    "objectID": "slides.html#das-standardmodell-überblick",
+    "href": "slides.html#das-standardmodell-überblick",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Das Standardmodell (Überblick)",
+    "text": "Das Standardmodell (Überblick)\n\n\n\n\n\nVon MissMJ & Cush / abgeleitetes Werk: Polluks - Standard Model of Elementary Particles.svg, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=11307906\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBetonung: Alles, was wir kennen. Fokus gleich auf Quarks & Gluonen lenken → QCD."
+  },
+  {
+    "objectID": "slides.html#die-starke-wechselwirkung",
+    "href": "slides.html#die-starke-wechselwirkung",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Die starke Wechselwirkung",
+    "text": "Die starke Wechselwirkung\n\n\n\nBeschrieben durch: QCD (Quantenchromodynamik)\nQuarks tragen Farbladung\nVermittelt durch Gluonen\nVerantwortlich für ~99% der Masse sichtbarer Materie\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBy Arpad Horvath - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=637353\n\n\n\n\nFarbe als Analogie, keine echte Farbe."
+  },
+  {
+    "objectID": "slides.html#das-problem",
+    "href": "slides.html#das-problem",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Das Problem",
+    "text": "Das Problem\n\nQCD-Gleichungen sind bekannt …\n\n\n… aber extrem schwer zu lösen!\n\n\n Warum?"
+  },
+  {
+    "objectID": "slides.html#klassische-physik-vs.-quantenphysik",
+    "href": "slides.html#klassische-physik-vs.-quantenphysik",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Klassische Physik vs. Quantenphysik",
+    "text": "Klassische Physik vs. Quantenphysik\n\n\n  \n  \n  klassisch\n\n  \n  \n  \n  Start\n  Ziel\n\n\n\n\nKlassische Physik: Natur wählt den Pfad mit minimaler Wirkung\n\n\n\nDie Wirkung ist eine Zahl, die angibt, wie sehr sich das Universum “anstrengen muss” um einen Pfad durchzuführen (Analogon: Effizienz)\n\n\nPfadintegral-Idee nach Feynman. Betonung: viele Pfade interferieren, klassischer Pfad dominiert."
+  },
+  {
+    "objectID": "slides.html#klassische-physik-vs.-quantenphysik-1",
+    "href": "slides.html#klassische-physik-vs.-quantenphysik-1",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Klassische Physik vs. Quantenphysik",
+    "text": "Klassische Physik vs. Quantenphysik\n\n\n  \n  \n  klassisch\n  \n  \n  \n  \n  \n  \n  \n  \n  quantenmechanisch\n\n  \n  \n  \n  Start\n  Ziel\n\n\n\n\nKlassische Physik: Natur wählt den Pfad mit minimaler Wirkung\nQuantenphysik: Alle Pfade tragen bei, aber kleine Wirkung → größere Bedeutung\n\n\n\n\nAufsummierung und Mittelung aller Pfade wird als Pfadintegral bezeichnet\n\n\nPfadintegral-Idee nach Feynman. Betonung: viele Pfade interferieren, klassischer Pfad dominiert."
+  },
+  {
+    "objectID": "slides.html#pfadintegral-in-der-qed",
+    "href": "slides.html#pfadintegral-in-der-qed",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Pfadintegral in der QED",
+    "text": "Pfadintegral in der QED\nBeispiel: Elektron–Elektron-Streuung (Elektronen werden aufeinander geschossen) Ziel: Berechne die Wahrscheinlichkeit, dass das Elektron in einem bestimmten Winkel gestreut wird und vergleiche mit Experiment\n\n\n  \n    \n      \n        \n      \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n\n    \n    \n\n    e⁻\n    e⁻\n    e⁻\n    e⁻"
+  },
+  {
+    "objectID": "slides.html#pfadintegral-in-der-qed-1",
+    "href": "slides.html#pfadintegral-in-der-qed-1",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Pfadintegral in der QED",
+    "text": "Pfadintegral in der QED\nBeispiel: Elektron–Elektron-Streuung (Elektronen werden aufeinander geschossen) Ziel: Berechne die Wahrscheinlichkeit, dass das Elektron in einem bestimmten Winkel gestreut wird und vergleiche mit Experiment\n\n\n  \n    \n    \n    \n    \n    \n\n    \n    \n\n    \n    \n\n    \n\n    e⁻\n    e⁻\n    e⁻\n    e⁻\n    Photon (γ)\n  \n\n\nEin Diagramm = ein Term im Pfadintegral (Feynman-Diagramme)"
+  },
+  {
+    "objectID": "slides.html#pfadintegral-in-der-qed-2",
+    "href": "slides.html#pfadintegral-in-der-qed-2",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Pfadintegral in der QED",
+    "text": "Pfadintegral in der QED\nBeispiel: Elektron–Elektron-Streuung\n\n\n  \n    \n    \n    \n    \n    \n\n    \n    \n\n    \n    \n\n    \n\n    \n     \n    \n    \n    \n\n    \n\n    e⁻\n    e⁺\n\n    e⁻\n    e⁻\n    e⁻\n    e⁻\n    γ\n    γ\n  \n\n\n\nSpeziell in der QED: Je mehr Wechselwirkungen, desto unwichtiger werden Pfade (ist nicht immer so)"
+  },
+  {
+    "objectID": "slides.html#pfadintegral-in-der-qed-3",
+    "href": "slides.html#pfadintegral-in-der-qed-3",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Pfadintegral in der QED",
+    "text": "Pfadintegral in der QED\nBeispiel: Elektron–Elektron-Streuung\n\n\n  \n    \n      \n        \n      \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n\n    \n    \n\n    \n\n    \n     \n    \n    \n    \n\n    \n\n    e⁻\n    e⁺\n\n    e⁻\n    e⁻\n    e⁻\n    e⁻\n    γ\n    γ\n  \n\n\n→ Um Observablen zu berechnen und mit Experimenten vergleichen zu können braucht man nur eine endliche Anzahl an Diagrammen"
+  },
+  {
+    "objectID": "slides.html#wichtige-klarstellung",
+    "href": "slides.html#wichtige-klarstellung",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Wichtige Klarstellung",
+    "text": "Wichtige Klarstellung\n\nFeynman-Diagramme sind keine echten Teilchenbahnen\nSie sind ein mathematischer Trick\nHilfreich, um das Pfadintegral übersichtlich zu berechnen\nBewart uns fürs erste davor, tiefer in die Quantenfeldtheorie gehen zu müssen\n\n\nNicht als Zeitablauf interpretieren!"
+  },
+  {
+    "objectID": "slides.html#und-jetzt-qcd",
+    "href": "slides.html#und-jetzt-qcd",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Und jetzt: QCD",
+    "text": "Und jetzt: QCD\n\nStarke Kopplung: Komplizierte Diagramme werden nicht unwichtig\nUnendlich viele wichtige Diagramme\n\n\n→ Keine andere Wahl mehr, als mit Feldern zu rechnen!\n\nPerfekter Übergang zur Gitteridee."
+  },
+  {
+    "objectID": "slides.html#rechnen-in-der-quantenfeldtheorie-qft",
+    "href": "slides.html#rechnen-in-der-quantenfeldtheorie-qft",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Rechnen in der Quantenfeldtheorie (QFT)",
+    "text": "Rechnen in der Quantenfeldtheorie (QFT)\n\nTeilchen sind Anregungen verschiedener Quantenfelder\nFür Rechnungen muss die Raumzeit diskretisiert werden\nHochdimensionale Integrale (meist mindestens 10^6 Variablen)\nKann nicht analytisch berechnet werden → Wir müssen Computer verwenden!\nQCD auf dem Computer: Lattice QCD"
+  },
+  {
+    "objectID": "slides.html#die-idee-von-lattice-qcd",
+    "href": "slides.html#die-idee-von-lattice-qcd",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Die Idee von Lattice QCD",
+    "text": "Die Idee von Lattice QCD\n\n\n\n\nBeschränke das Universum auf ein sehr kleines Volumen (kleiner als ein Atom)\nRaum und Zeit werden zum Gitter (eng.: Lattice)\nQuarks sitzen auf Gitterpunkten\nGluonen auf den Verbindungen \nGenaue Größe des Gitters wird vor der Simulation festgelegt\nEchte Physik bekommt man nur im Fall a \\rightarrow 0\n\n\n\n\n  \n    \n      \n        \n      \n    \n\n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    Fermion(n)\n    \n    \n    \n    Gluon₁(n)\n    Gluon₂(n)\n    L₁\n    L₂\n    a\n\n    \n    \n    \n    \n\n    \n    \n\n  \n\n\n\n\n\nVergleich mit Pixeln auf einem Bildschirm. Warum dieser trick funktioniert ist etwas zu kompliziert für heute…"
+  },
+  {
+    "objectID": "slides.html#lattice-qcd",
+    "href": "slides.html#lattice-qcd",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Lattice QCD",
+    "text": "Lattice QCD\nWie rechnet man jetzt auf dem Gitter?\n\nÄhnlich zum Pfadintegral brauchen wir jetzt die wichtigen Feldkonfigurationen\nAber wie gesagt, gibt es in der QCD unendlich viele\n\n\nBrauchen wir denn wirklich alle?"
+  },
+  {
+    "objectID": "slides.html#lattice-qcd-1",
+    "href": "slides.html#lattice-qcd-1",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Lattice QCD",
+    "text": "Lattice QCD\n\nVergleich mit etwas bekanntem: Umfragen\n\n\n\nIn Umfragen wird nur ein kleiner representativer Teil der Bevölkerung befragt\nDas Ergebnis hat dann eine gewisse Unsicherheit, diese ist aber proportional zu 1 / \\sqrt{N_\\textrm{Befragte}}\n\n\n\nGenau so simulieren wir also auch nur einen representativen Teil der wichtigen Feldkonfigurationen in Lattice QCD"
+  },
+  {
+    "objectID": "slides.html#lattice-qcd-2",
+    "href": "slides.html#lattice-qcd-2",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Lattice QCD",
+    "text": "Lattice QCD\n\nWeitere Probleme: Wissen wir welche Konfigurationen wichtig sind? Und wie generieren wir sie?\n\n\n\nAntwort auf die erste Frage: Ja, aber nur wenn wir sie schon haben…\n\n\n\n\nAntwort auf die zweite Frage: Es ist schwer…"
+  },
+  {
+    "objectID": "slides.html#lattice-qcd-3",
+    "href": "slides.html#lattice-qcd-3",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Lattice QCD",
+    "text": "Lattice QCD\nDie (soweit beste) Lösung: Markov-Chain Monte Carlo (MCMC)\n\nWir starten mit irgendeiner Konfig U mit Wirkung S(U)"
+  },
+  {
+    "objectID": "slides.html#lattice-qcd-4",
+    "href": "slides.html#lattice-qcd-4",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Lattice QCD",
+    "text": "Lattice QCD\nDie (soweit beste) Lösung: Markov-Chain Monte Carlo (MCMC)\n\nÄndern sie an jedem Punkt und jeder Verbindung ein bisschen\n\n\n\n  \n    \n      \n        \n      \n    \n\n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    +0.04 ↑\n    -0.12 ↓"
+  },
+  {
+    "objectID": "slides.html#lattice-qcd-5",
+    "href": "slides.html#lattice-qcd-5",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Lattice QCD",
+    "text": "Lattice QCD\nDie (soweit beste) Lösung: Markov-Chain Monte Carlo (MCMC)\n\nBerechnen den Wirkungsunterschied zwischen der neuen und der alten Konfig \\Delta S\n\n\n\n\n\n  \n    \n      \n        \n      \n    \n\n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n  \n\n\n\n\n\n  \n    \n      \n        \n      \n    \n\n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    +0.04 ↑\n    -0.12 ↓"
+  },
+  {
+    "objectID": "slides.html#lattice-qcd-6",
+    "href": "slides.html#lattice-qcd-6",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Lattice QCD",
+    "text": "Lattice QCD\nDie (soweit beste) Lösung: Markov-Chain Monte Carlo (MCMC)\n\nDie neue Konfig wird mit Wahrscheinlichkeit e^{-\\Delta S} angenommen\n\n\n\n\n\n  \n    \n      \n        \n      \n    \n\n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n  \n\n\n\nr \\in [0.0, 1.0]\n\\Delta S &lt; r \\Rightarrow \\textrm{akzeptiert}"
+  },
+  {
+    "objectID": "slides.html#mcmc",
+    "href": "slides.html#mcmc",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "MCMC",
+    "text": "MCMC\n\nFunktioniert ganz gut, da über die Jahre sehr viele Tricks und Verbesserungen vorgeschlagen wurden\nABER, da jede Konfig direkt von der letzten abhängt, gibt es neue Schwierigkeiten:\n\n\n\nEs gibt nun eine sogenannte Autokorrelationszeit \\tau (Bedeutung: Wie viele Konfigs liegen zwischen zwei statistisch unabhängigen)\nDie Unsicherheit unserer Messwerte ist proportional zu \\tau\n\\tau steigt sehr schnell mit kleiner werdendem Gitterabstand a\nFür die meisten Observablen geht \\tau mit a^{-2}\nEine bestimmte Observable zeigt aber \\tau \\sim a^{-5} oder schlesteres Verhalten"
+  },
+  {
+    "objectID": "slides.html#mcmc-1",
+    "href": "slides.html#mcmc-1",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "MCMC",
+    "text": "MCMC\n\nEine bestimmte Observable zeigt aber \\tau \\sim a^{-5} oder schlesteres Verhalten\nDer Grund dafür sind sog. Wirkungsbarrieren, welche mit kleinerem Gitterabstand größer werden\n\n\n\n\n\n\n\n\n\n\nBereiche mit hoher Wirkung können von üblichen Algorithmen nicht gut überquert werden\n\n\n\n\nHieran arbeite ich!"
+  },
+  {
+    "objectID": "slides.html#was-mache-ich-konkret",
+    "href": "slides.html#was-mache-ich-konkret",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Was mache ich konkret?",
+    "text": "Was mache ich konkret?\n\n\nEntwicklung & Analyse von Simulationen \n\n\nVeröffentlichung und Lesen von Artikeln \n\n\n      Lehre       \n\n\nDiskussion mit Physiker:innen weltweit auf Konferenzen oder Workshops"
+  },
+  {
+    "objectID": "slides.html#warum-physik-studieren",
+    "href": "slides.html#warum-physik-studieren",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Warum Physik studieren?",
+    "text": "Warum Physik studieren?\n\nLernen, komplexe Probleme zu lösen\nSehr breite Berufsmöglichkeiten\nNeugier als Job 😄"
+  },
+  {
+    "objectID": "slides.html#take-home-message",
+    "href": "slides.html#take-home-message",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Take-Home Message",
+    "text": "Take-Home Message\n\nDie Welt ist auf kleinster Skala extrem spannend\nDie allermeisten Rechungen sind nicht mehr analytisch möglich\nLattice QCD verbindet Physik & Informatik (ohne langweiligen IT Kram)\nVielleicht sitzt hier eine zukünftige Physikerin / ein zukünftiger Physiker 😉"
+  },
+  {
+    "objectID": "slides.html#fragen",
+    "href": "slides.html#fragen",
+    "title": "Was macht ein Teilchenphysiker?",
+    "section": "Fragen?",
+    "text": "Fragen?"
+  }
+]
