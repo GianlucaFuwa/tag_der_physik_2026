@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.15)  15 APR 2026 19:18
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.17)  17 APR 2026 10:26
  restricted system commands enabled.
 **index.tex
 (./index.tex
@@ -882,7 +882,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 ))
 \pandoc@box=\box87
 (/home/gialu/.TinyTeX/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2026/03/24 v26.5 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+Package: babel 2026/04/15 v26.6 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 (/home/gialu/.TinyTeX/texmf-dist/tex/generic/babel/luababel.def
 \bbl@readstream=\read3
 \l@dumylang=\language2
@@ -1592,6 +1592,6 @@ Here is how much of LuaTeX's memory you used:
    58 hlist, 11 vlist, 10 rule, 33 disc, 12 local_par, 4 dir, 162 glue, 33 kern, 33 penalty, 3 noad, 1 radical, 5 math_char, 1 delim, 1 margin_kern, 392 glyph, 2931 attribute, 85 glue_spec, 983 attribute_list, 4 temp, 2 shape, 3 write, 1 user_defined, 9 pdf_literal, 1 pdf_dest, 41 pdf_colorstack nodes
    avail lists: 1:3,2:2113,3:220,4:270,5:110,6:37,7:1222,9:360,10:13,11:92,12:1
  55918 multiletter control sequences out of 65536+600000
- 44 fonts using 11570743 bytes
+ 44 fonts using 11570783 bytes
  101i,15n,114p,1001b,888s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!

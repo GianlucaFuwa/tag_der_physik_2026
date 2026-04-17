@@ -1151,11 +1151,11 @@ ylabel!("Wirkung")
 ::: {.r-stack}
 
 ::: {.fragment .fade-in-then-out fragment-index=1 style="text-align: center;"}
-**Entwicklung & Analyse von Simulationen** ![](codesnippet.png){width="700" height="400"}
+**Entwicklung & Analyse von Simulationen** ![](codesnippet.png){width="600" height="400"}
 :::
 
 ::: {.fragment .fade-in-then-out fragment-index=2 style="text-align: center;"}
-**Veröffentlichung und Lesen von Artikeln** ![](papersnippet.png){width="800" height="450"}
+**Veröffentlichung und Lesen von Artikeln** ![](papersnippet.png){width="700" height="450"}
 :::
 
 ::: {.fragment .fade-in-then-out fragment-index=3 style="text-align: center;"}
